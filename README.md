@@ -1,7 +1,7 @@
 
 # ButlerManagementSystem-solution
 
-## how do run the code?
+## how to run the code?
 
 1. ```  cd '{target directory}'   ```
 
@@ -13,7 +13,9 @@
 
 ## what does these code do?
 
-1. **main.py**: \n1. This demo will randomly generate items for testing. \n2. This demo will check whether the input name exists or not automatically (under current folder) \n3. Generated data will be appended into an existing file, or created a new file. \nPlease input a file name for testing (Case sensitive!!!); e.g. "sample.json" or "new_file.json"\n'.
+1. **main.py**: a. This demo will randomly generate items for testing. b. This demo will check whether the input name exists or not automatically (under current folder) c. Generated data will be appended into an existing file, or created a new file.
+
+\nPlease input a file name for testing (Case sensitive!!!); e.g. "sample.json" or "new_file.json"\n'.
 
 ```  
 pip install snscrape
