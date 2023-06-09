@@ -34,18 +34,17 @@ def random_data():
     random_num = random.randrange(50)
     if random_num == 20:
         return {
-        "createdAt": generate_time,
-        'msg': msg
+        "createdAt": generate_time
     }
     elif random_num == 30:
         return {
-        "createdAt": generate_time,
         'tel': generate_tel,
         'msg': msg
     }
     elif random_num == 40:
         return {
         'tel': generate_tel,
+        "name": generate_name,
         'msg': msg
     }
     else:
@@ -57,7 +56,7 @@ def random_data():
         }
     
 def random_data_list():
-    items_num = input('How many random items you wanna generate?')
+    items_num = input('How many random items you wanna generate? I recommend to set a high value for proving incomplete items will be generated, like 600.')
     while 1:
         try:
             items_num = int(items_num)
