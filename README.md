@@ -11,7 +11,7 @@
 
 4. ```  python JSON_.py   ```
 
-## what does these code do?
+## what do these codes do?
 
 1. **main.py**: a. This demo will randomly generate items for testing. b. This demo will check whether the input name exists or not automatically (under current folder) c. Generated data will be appended into an existing file, or created a new file.
 
