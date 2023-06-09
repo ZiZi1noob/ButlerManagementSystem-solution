@@ -13,7 +13,7 @@
 
 ## what do these codes do?
 
-1. **main.py**: a. This demo will randomly generate items for testing. b. This demo will check whether the input name exists or not automatically (under current folder) c. Generated data will be appended into the existing file, or created a new file.
+1. **main.py**: a. This demo will randomly generate items (both complete and incomplete items) for testing. b. This demo will check whether the input name exists or not automatically (under current folder) c. Generated data will be appended into the existing file, or created a new file.
 
 
 2. **JSON_.py**: After creating or adding tickets, you might wanna detect incomplete tickets. Simply run:  ```  python JSON_.py   ```.
